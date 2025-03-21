@@ -74,14 +74,16 @@
     <string name="order_completed_message">Your order has been successfully completed!</string>
     <string name="ok">OK</string>
 
-
-    <string-array name="coffee_categories">
-        <item>@string/select_category</item>
-        <item>@string/espresso_based</item>
-        <item>@string/brewed_classic</item>
-        <item>@string/flavored_specialty</item>
-        <item>@string/iced_blended</item>
-        <item>@string/non_coffee</item>
+    <string-array name="watch_categories">
+        <item>Select Category</item>
+        <item>Analog</item>
+        <item>Digital</item>
+        <item>Smartwatch</item>
+        <item>Chronograph</item>
+        <item>Diving</item>
+        <item>Luxury</item>
+        <item>Sports</item>
+        <item>Casual</item>
     </string-array>
     <!--product categories-->
 
