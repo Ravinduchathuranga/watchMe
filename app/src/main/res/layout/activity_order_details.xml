@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".OrderDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Order ID -->
+        <TextView
+            android:id="@+id/textOrderId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order ID: 123"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Customer Name -->
+        <TextView
+            android:id="@+id/textCustomerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer: John Doe"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Total Amount -->
+        <TextView
+            android:id="@+id/textTotalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount: $100.00"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Order Date -->
+        <TextView
+            android:id="@+id/textOrderDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: 2023-10-01"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Order Items -->
+        <TextView
+            android:id="@+id/textOrderItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Items: Product A, Product B"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Order Status -->
+        <TextView
+            android:id="@+id/textOrderStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: Delivered"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Shipping Address -->
+        <TextView
+            android:id="@+id/textShippingAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shipping Address: 123 Main St, City, Country"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Payment Method -->
+        <TextView
+            android:id="@+id/textPaymentMethod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Method: Credit Card"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</ScrollView>
