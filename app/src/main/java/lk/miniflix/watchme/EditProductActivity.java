@@ -18,7 +18,7 @@ import lk.miniflix.watchme.module.ProductModel;
 public class EditProductActivity extends AppCompatActivity {
 
     private FirebaseFirestore firestore;
-    private TextInputEditText editTextProductName, editTextProductCategory, editTextProductPrice, editTextImageUrl;
+    private TextInputEditText editTextProductName, editTextProductCategory, editTextProductPrice;
     private Button buttonSave, buttonDelete;
     private String productId;
 
@@ -34,23 +34,20 @@ public class EditProductActivity extends AppCompatActivity {
         editTextProductName = findViewById(R.id.editTextProductName);
         editTextProductCategory = findViewById(R.id.editTextProductCategory);
         editTextProductPrice = findViewById(R.id.editTextProductPrice);
-        editTextImageUrl = findViewById(R.id.editTextImageUrl);
         buttonSave = findViewById(R.id.buttonSave);
         buttonDelete = findViewById(R.id.buttonDelete);
 
         // Get product details from intent
         Intent intent = getIntent();
-        productId = intent.getStringExtra("productId");
+        productId = intent.getStringExtra("name");
         String name = intent.getStringExtra("name");
         String category = intent.getStringExtra("category");
         double price = intent.getDoubleExtra("price", 0.0);
-        String imageUrl = intent.getStringExtra("imageUrl");
 
         // Populate fields with product data
         editTextProductName.setText(name);
         editTextProductCategory.setText(category);
         editTextProductPrice.setText(String.valueOf(price));
-        editTextImageUrl.setText(imageUrl);
 
         // Save Changes Button
         buttonSave.setOnClickListener(v -> saveChanges());
@@ -63,9 +60,8 @@ public class EditProductActivity extends AppCompatActivity {
         String name = editTextProductName.getText().toString().trim();
         String category = editTextProductCategory.getText().toString().trim();
         String priceString = editTextProductPrice.getText().toString().trim();
-        String imageUrl = editTextImageUrl.getText().toString().trim();
 
-        if (name.isEmpty() || category.isEmpty() || priceString.isEmpty() || imageUrl.isEmpty()) {
+        if (name.isEmpty() || category.isEmpty() || priceString.isEmpty()) {
             Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show();
             return;
         }
@@ -77,7 +73,6 @@ public class EditProductActivity extends AppCompatActivity {
         product.put("name", name);
         product.put("category", category);
         product.put("price", price);
-        product.put("imageUrl", imageUrl);
 
         // Update product in Firestore
         firestore.collection("products")

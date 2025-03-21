@@ -158,7 +158,7 @@ public class AddProductActivity extends AppCompatActivity {
                 product.put("features", features);
                 product.put("imageUri", url);
 
-                firestore.collection("watches")
+                firestore.collection("products")
                         .document(productName)
                         .set(product)
                         .addOnSuccessListener(documentReference -> {
