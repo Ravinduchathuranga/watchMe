@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "229605993763",
+    "project_id": "watchme-45261",
+    "storage_bucket": "watchme-45261.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229605993763:android:cbe9f222a471f46cabb096",
+        "android_client_info": {
+          "package_name": "com.miniflix.watchme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAYNqBQBfSJJGVmUR3qye4BAIBxyYQPrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229605993763:android:0ccd486a0a69f246abb096",
+        "android_client_info": {
+          "package_name": "lk.miniflix.watchme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAYNqBQBfSJJGVmUR3qye4BAIBxyYQPrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

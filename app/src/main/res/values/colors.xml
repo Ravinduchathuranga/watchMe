@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="coffee_brown">#6D4C41</color>
+    <color name="cream_beige">#FFF3E0</color>
+    <color name="olive_green">#8BC34A</color>
+    <color name="soft_white">#ECEFF1</color>
+    <color name="red">#FF521B</color>
+
+
+    <color name="color_category1">#FF6F61</color> <!-- Coral -->
+    <color name="color_category2">#6B5B95</color> <!-- Purple -->
+    <color name="color_category3">#88B04B</color> <!-- Green -->
+    <color name="color_category4">#F7CAC9</color> <!-- Pink -->
+    <color name="color_category5">#92A8D1</color> <!-- Blue -->
+    <color name="color_category6">#955251</color> <!-- Maroon -->
+    <color name="color_category7">#B565A7</color> <!-- Magenta -->
+    <color name="color_category8">#009B77</color> <!-- Teal -->
+    <color name="color_category9">#DD4124</color> <!-- Red -->
+    <color name="color_category10">#D65076</color> <!-- Rose -->
+
+    <color name="primaryColor">#6200EE</color>
+    <color name="gray">#808080</color>
+</resources>

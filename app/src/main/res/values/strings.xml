@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">watchMe</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_users">Users</string>
+    <string name="menu_products">Products</string>
+    <string name="signin">SignIn</string>
+    <string name="all_product">All Product</string>
+    <string name="add_product">Add Product</string>
+    <string name="list_products">List Products</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="available">Available</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="medium">Medium</string>
+    <string name="small">Small</string>
+    <string name="large">Large</string>
+    <string name="stock_availability">Stock availability</string>
+    <string name="conform">Conform</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_image">Add Image</string>
+    <string name="product_price">Product Price</string>
+    <string name="select_size">Select Size</string>
+    <string name="product_description">Product Description</string>
+    <string name="product_name">Product Name</string>
+    <string name="add_user">Add User</string>
+    <string name="users_list">Users List</string>
+    <string name="user_registation">User Registation</string>
+    <string name="name">Name</string>
+    <string name="birth_day">Birth day</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_gender">Select Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="email">Email</string>
+    <string name="experience_level">Experience Level</string>
+    <string name="beginner">Beginner</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="expert">Expert</string>
+    <string name="availability">Availability</string>
+    <string name="full_time">Full Time</string>
+    <string name="part_time">Part Time</string>
+    <string name="nic_number">Nic Number</string>
+    <string name="new_candidate">New Candidate</string>
+    <string name="userslist">Users List</string>
+
+    <!--product categories-->
+    <string name="select_category">Select Category</string>
+    <string name="espresso_based">Espresso-Based Coffees</string>
+    <string name="brewed_classic">Brewed and Classic Coffees</string>
+    <string name="flavored_specialty">Flavored and Specialty Coffees</string>
+    <string name="iced_blended">Iced and Blended Coffees</string>
+    <string name="non_coffee">Non-Coffee Alternatives</string>
+    <string name="check_order">Check Order</string>
+    <string name="select_your_account_type">Select Your Account Type</string>
+    <string name="admin">Admin</string>
+    <string name="staff">Staff</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="process_order">Process Order</string>
+    <string name="order_text">New order received! Please review and prepare it promptly. Ensure accuracy and timely fulfillment to maintain excellent service.</string>
+    <string name="birth_date">Birth Date</string>
+
+    <string name="order_status_update_message">Order Status Update!</string>
+    <string name="yes">Yes</string>
+    <string name="order_completed_title">Order Completed</string>
+    <string name="order_completed_message">Your order has been successfully completed!</string>
+    <string name="ok">OK</string>
+
+
+    <string-array name="coffee_categories">
+        <item>@string/select_category</item>
+        <item>@string/espresso_based</item>
+        <item>@string/brewed_classic</item>
+        <item>@string/flavored_specialty</item>
+        <item>@string/iced_blended</item>
+        <item>@string/non_coffee</item>
+    </string-array>
+    <!--product categories-->
+
+</resources>
